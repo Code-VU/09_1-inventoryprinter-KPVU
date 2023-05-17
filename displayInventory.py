@@ -7,5 +7,5 @@ def displayInventory(inventory):
         print(quantity, item)
         TotalItems += quantity
     print("Total number of items: {TotalItems}")
-    if __name__ == "__main__":
-        displayInventory(stuff)
+if __name__ == "__main__":
+    displayInventory(stuff)
