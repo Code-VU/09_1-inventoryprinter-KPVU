@@ -6,6 +6,6 @@ def displayInventory(inventory):
     for item, quantity in inventory.items():
         print(quantity, item)
         TotalItems += quantity
-    print("Total number of items: {TotalItems}")
+    print("Total number of items: " + str(TotalItems))
 if __name__ == "__main__":
     displayInventory(stuff)
